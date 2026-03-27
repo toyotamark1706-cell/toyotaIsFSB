@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФСБ 2.0 | Mark Toyota — Лидер 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; }
+        .title-font { font-family: 'Space Grotesk', sans-serif; }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(10,10,10,0.92), rgba(10,10,10,0.95)), 
+                        url('https://picsum.photos/id/1015/2000/1200') center/cover fixed;
+        }
+        
+        .section-card {
+            transition: all 0.4s ease;
+        }
+        .section-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(255,0,0,0.15);
+        }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-white">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 w-full z-50 bg-black/95 backdrop-blur-lg border-b border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8 py-6 flex justify-between items-center">
+            <div class="flex items-center gap-12">
+                <a href="#" class="flex items-center gap-3">
+                    <span class="text-4xl font-bold title-font tracking-tighter">ФСБ</span>
+                    <span class="text-2xl text-red-500">2.0</span>
+                </a>
+                <div class="hidden md:flex gap-8 text-sm font-medium">
+                    <a href="#ustav" class="hover:text-red-500 transition">Устав ФСБ</a>
+                    <a href="#law" class="hover:text-red-500 transition">Законодательство</a>
+                    <a href="#docs" class="hover:text-red-500 transition">Документация</a>
+                    <a href="#leadership" class="hover:text-red-500 transition">Руководство</a>
+                    <a href="#info" class="hover:text-red-500 transition">Информация</a>
+                    <a href="#news" class="hover:text-red-500 transition">Новости</a>
+                    <a href="#events" class="hover:text-red-500 transition">Мероприятия</a>
+                </div>
+            </div>
+            <a href="#" onclick="alert('Toyota Is Benz ✅')" 
+               class="bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-red-600 hover:text-white transition-all flex items-center gap-2">
+                <i class="fa-solid fa-rocket"></i>
+                Toyota Is Benz
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h1 class="title-font text-7xl md:text-8xl font-bold leading-none">
+                ФСБ 2.0<br>
+                <span class="text-red-500">Mark Toyota</span>
+            </h1>
+            <p class="mt-6 text-3xl text-gray-300">Полковник • Лидер проекта • Май 2026</p>
+            <div class="mt-12">
+                <span class="text-red-500 text-xl font-medium">Toyota Is Benz ✅</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. УСТАВ ФСБ -->
+    <section id="ustav" class="py-24 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h2 class="title-font text-6xl font-bold mb-4">Устав ФСБ</h2>
+            <p class="text-gray-400 text-xl mb-12">Основные принципы и правила проекта ФСБ 2.0</p>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/1015/800/600" alt="Устав" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">Основные положения</h3>
+                    <p class="text-gray-300">Mark Toyota как Полковник определяет стратегию и развитие проекта.</p>
+                </div>
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/201/800/600" alt="Устав" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">Цели и задачи</h3>
+                    <p class="text-gray-300">Развитие проекта, поддержание порядка, создание новых направлений в 2026 году.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ЗАКОНОДАТЕЛЬСТВО -->
+    <section id="law" class="py-24 bg-black/50 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h2 class="title-font text-6xl font-bold mb-12">Законодательство</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-8">
+                    <img src="https://picsum.photos/id/237/600/400" alt="Закон" class="w-full rounded-2xl mb-6">
+                    <h3 class="text-xl font-semibold">Основной закон проекта</h3>
+                    <p class="text-gray-400 mt-3">Mark Toyota — Полковник и главный руководитель ФСБ 2.0</p>
+                </div>
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-8">
+                    <img src="https://picsum.photos/id/180/600/400" alt="Закон" class="w-full rounded-2xl mb-6">
+                    <h3 class="text-xl font-semibold">Права и обязанности</h3>
+                    <p class="text-gray-400 mt-3">Члены проекта обязуются соблюдать устав и поддерживать порядок.</p>
+                </div>
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-8">
+                    <img src="https://picsum.photos/id/201/600/400" alt="Закон" class="w-full rounded-2xl mb-6">
+                    <h3 class="text-xl font-semibold">Ответственность</h3>
+                    <p class="text-gray-400 mt-3">Нарушение устава влечёт за собой меры в рамках проекта.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. ДОКУМЕНТАЦИЯ -->
+    <section id="docs" class="py-24 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h2 class="title-font text-6xl font-bold mb-12">Документация</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/1018/800/500" alt="Документы" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold">Официальные документы</h3>
+                    <p class="text-gray-400 mt-4">Устав, приказы и внутренние регламенты ФСБ 2.0</p>
+                </div>
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/133/800/500" alt="Документы" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold">Техническая документация</h3>
+                    <p class="text-gray-400 mt-4">Руководства по работе с проектом и нейросетевыми инструментами</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. РУКОВОДСТВО ФСБ -->
+    <section id="leadership" class="py-24 bg-black/50 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h2 class="title-font text-6xl font-bold mb-4">Руководство ФСБ 2.0</h2>
+            <p class="text-red-500 text-2xl mb-12">Mark Toyota — Полковник и Главный Лидер</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Полковник -->
+                <div class="section-card bg-white/5 border border-red-500/30 rounded-3xl p-8 text-center">
+                    <div class="text-5xl mb-4">⭐</div>
+                    <h3 class="text-2xl font-bold">Полковник</h3>
+                    <p class="text-red-500 font-medium">Mark Toyota</p>
+                    <p class="text-sm text-gray-400 mt-2">Главный Лидер ФСБ 2.0</p>
+                </div>
+                
+                <!-- Подполковники -->
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-8">
+                    <h3 class="text-xl font-semibold mb-6">Подполковники (3)</h3>
+                    <ul class="space-y-4 text-gray-300">
+                        <li>• Подполковник 1</li>
+                        <li>• Подполковник 2</li>
+                        <li>• Подполковник 3</li>
+                    </ul>
+                </div>
+                
+                <!-- Майоры -->
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-8">
+                    <h3 class="text-xl font-semibold mb-6">Майоры (5)</h3>
+                    <ul class="space-y-4 text-gray-300">
+                        <li>• Майор 1</li>
+                        <li>• Майор 2</li>
+                        <li>• Майор 3</li>
+                        <li>• Майор 4</li>
+                        <li>• Майор 5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. ИНФОРМАЦИОННЫЙ РАЗДЕЛ -->
+    <section id="info" class="py-24 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h2 class="title-font text-6xl font-bold mb-12">Информационный раздел</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/1016/800/500" alt="Инфо" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold">О проекте ФСБ 2.0</h3>
+                    <p class="text-gray-400 mt-4">Современная платформа для развития, RP и новых возможностей в 2026 году.</p>
+                </div>
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/870/800/500" alt="Инфо" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold">Как присоединиться</h3>
+                    <p class="text-gray-400 mt-4">Связаться с Mark Toyota для получения доступа и инструкций.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. НОВОСТИ -->
+    <section id="news" class="py-24 bg-black/50 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h2 class="title-font text-6xl font-bold mb-12">Новости</h2>
+            <div class="space-y-8">
+                <div class="flex flex-col md:flex-row gap-8 bg-white/5 border border-white/10 rounded-3xl p-8">
+                    <img src="https://picsum.photos/id/201/400/300" alt="Новость" class="md:w-80 rounded-2xl">
+                    <div>
+                        <div class="text-red-500 text-sm">27 марта 2026</div>
+                        <h3 class="text-2xl font-semibold mt-3">Mark Toyota объявил о запуске ФСБ 2.0</h3>
+                        <p class="text-gray-400 mt-4">Новый сайт, устав, руководство и галерея нейросетевых изображений уже доступны.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. МЕРОПРИЯТИЯ -->
+    <section id="events" class="py-24 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8">
+            <h2 class="title-font text-6xl font-bold mb-12">Мероприятия</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/1015/800/500" alt="Мероприятие" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold">Запуск ФСБ 2.0</h3>
+                    <p class="text-gray-400">Май 2026 — официальный старт под руководством Полковника Mark Toyota</p>
+                </div>
+                <div class="section-card bg-white/5 border border-white/10 rounded-3xl p-10">
+                    <img src="https://picsum.photos/id/180/800/500" alt="Мероприятие" class="w-full rounded-2xl mb-8">
+                    <h3 class="text-2xl font-semibold">RP-тренировки и встречи</h3>
+                    <p class="text-gray-400">Регулярные мероприятия для членов проекта</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-16 border-t border-white/10">
+        <div class="max-w-screen-2xl mx-auto px-8 text-center">
+            <div class="text-5xl font-bold title-font mb-4">ФСБ 2.0</div>
+            <div class="text-red-500 text-3xl mb-8">Toyota Is Benz ✅</div>
+            <p class="text-gray-400">Руководитель: Полковник Mark Toyota</p>
+            <p class="text-xs text-gray-500 mt-12">Сайт создан бесплатно • В стиле SpaceX • 2026</p>
+        </div>
+    </footer>
+
+    <script>
+        console.log("%cФСБ 2.0 — Mark Toyota (Полковник) • Toyota Is Benz", "color:#ff0000; font-size:14px;");
+    </script>
+</body>
+  </html>
